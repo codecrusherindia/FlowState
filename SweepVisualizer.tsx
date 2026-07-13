@@ -259,7 +259,7 @@ async function startServer() {
       
       let user = await User.findOne({ _id: userId });
       if (!user) {
-        user = await User.create({ _id: userId, email: 'justmakingsome@gmail.com' });
+        user = await User.create({ _id: userId, email: 'email11@flowstate.com' });
       }
 
       let wallet = await Wallet.findOne({ userId });

@@ -20,7 +20,7 @@ interface IDBStore {
 }
 
 const DEFAULT_USER_ID = 'user_gig_worker_001';
-const DEFAULT_USER_EMAIL = 'justmakingsome@gmail.com';
+const DEFAULT_USER_EMAIL = 'email11@flowstate.com';
 
 function getInitialStore(): IDBStore {
   return {
