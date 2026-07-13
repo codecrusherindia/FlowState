@@ -2,8 +2,7 @@
 
 ### Autonomous Gig Economy Liquidity Co-Pilot & Section 44ADA Indian Tax Shield
 
-**Live Hosted Production App:** [https://flowstate-ox2.onrender.com/](https://flowstate-ox2.onrender.com/)  
-**Development Staging Link:** [https://ais-pre-n7i5oenfmhyyiw7c75xddf-952018122772.asia-southeast1.run.app](https://ais-pre-n7i5oenfmhyyiw7c75xddf-952018122772.asia-southeast1.run.app)
+**Live Hosted Production App:** [[https://flowstate-ox2.onrender.com/](https://flowstate-oxu0.onrender.com/)]
 
 ---
 
