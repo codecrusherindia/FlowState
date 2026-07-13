@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { IWallet, IRoutingRules, ITransaction, IUser, IPriorityBill } from './src/types.ts';
+import { IWallet, IRoutingRules, ITransaction, IUser } from '../types.ts';
 
 interface ISweepResult {
   taxWithheld: number;
@@ -75,7 +75,7 @@ export function executeSweep(
   const billsAllocation: Array<{ name: string; amountAdded: number }> = [];
   
   // Clone priority bills to work on them
-  const updatedBills = routingRules.priorityBills.map((b: IPriorityBill) => ({ ...b }));
+  const updatedBills = routingRules.priorityBills.map(b => ({ ...b }));
   
   for (const bill of updatedBills) {
     const pendingAmount = bill.amount - bill.filledAmount;
